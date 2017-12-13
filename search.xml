@@ -16,6 +16,8 @@
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 <h3 id="test-for-footnote"><a href="#test-for-footnote" class="headerlink" title="test for footnote"></a>test for footnote</h3><p>basic footnote<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
 <h3 id="test-for-ruby"><a href="#test-for-ruby" class="headerlink" title="test for ruby"></a>test for ruby</h3><ruby>超電磁砲<rp> (</rp><rt>レールガン</rt><rp>) </rp></ruby>
+<ruby>佐天泪子<rp> (</rp><rt>xiān qún kuáng mó</rt><rp>) </rp></ruby>
+<h3 id="test-for-math"><a href="#test-for-math" class="headerlink" title="test for math"></a>test for math</h3><p>$$\frac{\partial u}{\partial t}<br>= h^2 \left( \frac{\partial^2 u}{\partial x^2} +<br>\frac{\partial^2 u}{\partial y^2} +<br>\frac{\partial^2 u}{\partial z^2}\right)$$</p>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">basic footnote content</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
       
         
