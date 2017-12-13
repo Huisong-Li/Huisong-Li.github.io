@@ -12,7 +12,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/12/14/hello-world/index.html">
 <meta property="og:site_name" content="Tagebuch">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:updated_time" content="2017-12-13T18:24:10.087Z">
+<meta property="og:updated_time" content="2017-12-13T19:22:11.905Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
@@ -116,7 +116,7 @@
       </span>
       
     <div class="postdate">
-        <time datetime="2017-12-13T18:24:10.087Z" itemprop="datePublished">2017-12-14</time>
+        <time datetime="2017-12-13T19:22:11.905Z" itemprop="datePublished">2017-12-14</time>
     </div>
 
 
@@ -140,9 +140,24 @@
 <h3 id="test-for-footnote"><a href="#test-for-footnote" class="headerlink" title="test for footnote"></a>test for footnote</h3><p>basic footnote<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
 <h3 id="test-for-ruby"><a href="#test-for-ruby" class="headerlink" title="test for ruby"></a>test for ruby</h3><ruby>超電磁砲<rp> (</rp><rt>レールガン</rt><rp>) </rp></ruby>
 <ruby>佐天泪子<rp> (</rp><rt>xiān qún kuáng mó</rt><rp>) </rp></ruby>
-<h3 id="test-for-math"><a href="#test-for-math" class="headerlink" title="test for math"></a>test for math</h3><p>$H=-\sum<em>{i=1}^N (\sigma</em>{i}^x \sigma<em>{i+1}^x+g \sigma</em>{i}^z)$</p>
-<p>$a + b^2$<br>$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$</p>
-<script type="math/tex; mode=display">\dfrac {a+b} {a}=\dfrac {a} {b}=\phi</script><script type="math/tex; mode=display">\Delta_A(\lambda)=\det(\lambda I-A)</script><span>$\frac{|ax + by + c|}{\sqrt{a^{2}+b^{2}}}$</span><!-- Has MathJax -->
+<h3 id="test-for-math"><a href="#test-for-math" class="headerlink" title="test for math"></a>test for math</h3><script type="math/tex; mode=display">\frac{\partial u}{\partial t}
+= h^2 \left( \frac{\partial^2 u}{\partial x^2} +
+\frac{\partial^2 u}{\partial y^2} +
+\frac{\partial^2 u}{\partial z^2}\right)</script><script type="math/tex; mode=display">
+H=-\sum_{i=1}^N (\sigma_{i}^x \sigma_{i+1}^x+g \sigma_{i}^z)</script><p>Simple inline $a = b + c$.</p>
+<p>$(x,y)$,  $(x, y)$,</p>
+<script type="math/tex; mode=display">
+\begin{equation}
+   W^TX+b=0
+   \label{eq:heyper_plane}
+\end{equation}</script><script type="math/tex; mode=display">
+\begin{equation}
+   E = mc^2
+   \label{eq:sample}
+\end{equation}</script><script type="math/tex; mode=display">
+\begin{equation}
+   E = mc^2
+\end{equation}</script><p>$e^x = 1 + x +\cdots$</p>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">basic footnote content</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>
   </div>
 </article>
@@ -229,6 +244,21 @@
   </div>
 </footer>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>
 <!-- styles -->
